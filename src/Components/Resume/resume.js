@@ -1,5 +1,4 @@
 import resume1 from '../../Resources/Photos/Resume.jpg';
-import resume2 from '../../Resources/Photos/Frontend Developer Resume-page-002.jpg'
 import certificate from '../../Resources/Photos/codecademy-certificate.jpg';
 
 import './resume.css';
