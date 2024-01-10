@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Header } from './Components/Header/header'
+import Navbar  from './Components/Navbar/Navbar'
 import {About} from './Components/About/about';
 import { Portfolio } from './Components/Portfolio/portfolio';
 import { Resume } from './Components/Resume/resume';
@@ -13,7 +13,7 @@ function App() {
   return (
    
     <div>
-      <Header />
+      <Navbar />
     <Routes path="/">
       <Route index element={<About />} />
       <Route path="/about" element={<About />} />
