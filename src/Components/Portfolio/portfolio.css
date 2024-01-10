@@ -1,0 +1,52 @@
+.port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.port-con {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+    
+}
+
+.port-link {
+    color: black;
+    width: 25%;
+    background-color: #D7C0AE;
+    border: 1px solid #967E76;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+ .port-link p {
+    width: 90%;
+ }
+
+.port-link:hover {
+    background-color: #967E76;
+    color: white;
+    transition: all 200ms linear;
+}
+
+.port-img {
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .port-con {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .port-link {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+}
