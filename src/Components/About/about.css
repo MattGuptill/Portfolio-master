@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 1.5rem;
+    padding: 3rem 1.5rem;
     height: 100vh;
     line-height: 1.5rem;
+
 }
 
 .about-con p {
