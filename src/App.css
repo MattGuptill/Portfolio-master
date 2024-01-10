@@ -3,6 +3,9 @@
     font-family: 'kanit', sans-serif;
     
 }
+html {
+    height: 100vh;
+}
 
 body {
     background-color: #739072;
