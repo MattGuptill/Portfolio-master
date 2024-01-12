@@ -32,7 +32,7 @@ export const Portfolio = () => {
                     </div>
                 </a>
 
-                <a className="port-link" href='https://joelguptillmusic.com/index.html'>
+                <a className="port-link" href='https://candid-macaron-f48968.netlify.app'>
                     <div className="port">
                         <h2>Joel Guptill</h2>
                         <img className="port-img" src={joel} alt='joel guptill website' />
