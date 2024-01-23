@@ -1,5 +1,5 @@
 import reddit from '../../Resources/Photos/reddit-clone.png';
-import joel from '../../Resources/Photos/joel.png';
+import rogue from '../../Resources/Photos/rogueBeardOilSnap.png';
 import camp from '../../Resources/Photos/camp-scheduler.png';
 
 import './portfolio.css'
@@ -32,19 +32,20 @@ export const Portfolio = () => {
                     </div>
                 </a>
 
-                <a className="port-link" href='https://candid-macaron-f48968.netlify.app'>
+                <a className="port-link" href='www.roguebeardoil.com'>
                     <div className="port">
-                        <h2>Joel Guptill</h2>
-                        <img className="port-img" src={joel} alt='joel guptill website' />
+                        <h2>Rogue Beard Oil</h2>
+                        <img className="port-img" src={rogue} alt='Rogue Beard Oil website' />
                         <div>
                             <h3>Purpose:</h3>
-                            <p>This project was created for a local musician who needed a new website</p>
+                            <p>This project was created for a beard oil company with buying functionality</p>
                         </div>
                         <div>
                             <h3>Code Used:</h3>
                             <ul>
                                 <li>HTML</li>
-                                <li>CSS</li>
+                                <li>Tailwind css</li>
+                                <li>React</li>
                                 <li>JavaScript</li>
                             </ul>
                         </div>
